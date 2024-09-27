@@ -12,11 +12,13 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+    <link rel="apple-touch-icon" href="/images/favicon.ico" />
     <link rel="stylesheet" href="styles/style.css" />
     <title>Language Translator</title>
   </head>
   <body>
-    <div class="mode">
+    <!-- <div class="mode">
       <label class="toggle" for="dark-mode-btn">
         <div class="toggle-track">
           <input type="checkbox" class="toggle-checkbox" id="dark-mode-btn" />
@@ -25,11 +27,11 @@
           <img src="images/moon.jpeg" alt="" />
         </div>
       </label>
-    </div>
+    </div> -->
     <div class="container">
-      <div class="card input-wrapper">
+      <div class="card  input-wrapper">
         <div class="from">
-          <span class="heading">From :</span>
+          <span class="heading">From </span>
           <div class="dropdown-container" id="input-language">
             <div class="dropdown-toggle">
               <ion-icon name="globe-outline"></ion-icon>
@@ -67,9 +69,9 @@
         </div>
       </div>
 
-      <div class="card output-wrapper">
+      <div class="card l output-wrapper">
         <div class="to">
-          <span class="heading">To :</span>
+          <span class="heading">To </span>
           <div class="dropdown-container" id="output-language">
             <div class="dropdown-toggle">
               <ion-icon name="globe-outline"></ion-icon>
@@ -97,6 +99,9 @@
           </button>
         </div>
       </div>
+    </div>
+    <div class="footer">
+      <p>by <span class="author">Indudhara S</span></p>
     </div>
 
     <script src="script/languages.js"></script>
